@@ -1,0 +1,16 @@
+name: lianghua
+description: 量化天地
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: any
+  fl_chart: any
+  url_launcher: any
+
+flutter:
+  uses-material-design: true
