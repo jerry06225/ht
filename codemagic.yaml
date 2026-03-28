@@ -6,6 +6,6 @@ workflows:
     scripts:
       - flutter pub get
       - flutter create --platforms=android .  # 👈 加上这一行
-      - flutter build apk --release
+      - flutter build apk --debug # 改为 debug 构建
     artifacts:
       - build/app/outputs/flutter-apk/app-release.apk
